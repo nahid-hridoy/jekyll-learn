@@ -7,6 +7,17 @@
   <title>Document</title>
 </head>
 <body>
+  <header>
+    <h1>Learn Jekyll</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</li>
+        <li><a href="blog.html">Blog</li>
+      </ul>
+    </nav>
+
+  </header
   {{content}}
 </body>
 </html>
