@@ -9,14 +9,7 @@
 <body>
   <header>
     <h1>Learn Jekyll</h1>
-
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}index.html">Home</li>
-        <li><a href="{{site.baseurl}}blog.html">Blog</li>
-      </ul>
-    </nav>
-
+    {% include nav.html %}
   </header
   {{content}}
 </body>
